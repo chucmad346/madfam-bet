@@ -1,0 +1,303 @@
+:root{
+    --pri-color: #047aed;
+    --sec-color: #a3880d;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fff;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+img{
+    width: 100%;
+    min-height: 100px;
+}
+
+/*                             HEADER                               */
+.head-wrap{
+    width: 100%;
+    height: 100px;
+    background-color: var(--sec-color);
+    color: #fff;
+}
+
+.img-div{
+    max-width: 15%; 
+}
+
+.head-wrap > h1{
+    width: 65%;
+    margin-left: 30px;
+    margin-top: 8px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.nav-wrap{
+    height: 40px;
+    background-color: var(--pri-color);
+}
+
+.first-list{
+    margin-left: auto;
+}
+
+.nav-wrap a{
+    color: #fff;
+    margin: 0 10px;
+}
+
+.nav-wrap a:hover{
+    border-bottom: 2px solid#fff;
+}
+
+.nav-wrap li{
+    margin-top: 10px;
+}
+
+.container{
+    padding-left: 25px;
+    background-color: var(--pri-color);
+    color: #fff;
+    height: 300px;
+    position: relative;
+}
+
+ .showcase{
+     margin: 0 auto;
+     padding: 0 40px;
+ }
+
+ .text-div{
+     margin-top: 50px;
+ }
+
+ .text-div h1{
+     font-weight: 500;
+ }
+
+ .text-div p{
+     margin-top: 10px;
+ }
+
+.showcase .grid{
+    grid-template-columns: 65% 35%;
+    gap: 30%;
+}
+
+.container-card{
+   position: relative;
+   top: 60px;
+   height: 300px;
+   padding: 40px;
+   z-index: 100;
+   justify-self: flex-end;
+}
+
+.container-card h2{
+    color: #000;
+}
+
+.container-card .form-control{
+    margin: 10px 0;
+    border-bottom: 1px solid #b4becb;
+    
+}
+
+.container-card input{
+    border: 0;
+    width: 100%;
+}
+
+.container-card input:focus{
+    outline: none;
+}
+
+.container::before,
+.container::after{
+    content: "";
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+}
+
+/*               Table                              */
+
+.display{
+    background-color: #fff;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table{
+    margin-top: 100px;
+}
+
+.table h2{
+    color: #fff;
+}
+
+.table-1{
+    background-color: #f9f9f9;
+    margin: auto;
+}
+
+.table-1 th{
+    padding: 5px;
+}
+
+.table-1 td{
+    padding: 5px;
+}
+
+.table-1 tr:nth-child(even){
+    background-color: #cbcbcb;
+}
+
+.table-2 th{
+    padding: 5px;
+}
+
+.table-2 td{
+    padding: 5px;
+}
+
+.table-2 tr:nth-child(even){
+    background-color: #cbcbcb;
+}
+
+.table-2{
+    background-color: #f9f9f9;
+    margin: auto;
+}
+
+.table .card{
+    background-color: var(--sec-color);
+    transition:ease-in;
+}
+
+.table h2:hover{
+    transform: translateY(-15px);
+}
+
+
+/*                          Footer                           */
+
+.footer{
+    background-color: var(--pri-color);
+    margin-top: 100px;
+    height: 280px;
+    min-width: 100%;
+   
+}
+
+.footer .showcase{
+    height: 100%;
+   
+}
+
+.note{
+    width: 65%;
+    margin-top: 15px;
+}
+
+.social{
+    width: 35%;
+    margin-top: 15px;
+}
+
+
+.social i{
+    max-height: 50px;
+}
+
+.social i:hover{
+    transform: scale(0.78);
+}
+
+.note h2{
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.note p{
+    margin-top: 10px;
+    color: #fff;
+}
+/*                                Utilities                                   */
+
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin: 10px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: var(--sec-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    transform: scale(0.95);
+}
+
+.icolor{
+    color: green;
+}
+
+.xcolor{
+    color: red;
+}
+
+.social .card{
+    background-color: var(--sec-color);
+    color: white;
+}
+
+
