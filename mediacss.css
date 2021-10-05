@@ -85,6 +85,22 @@
     }
 
 }
+
+@media (max-width: 375px){
+    .head-wrap>h1{
+        font-size: 1.2em;
+    }
+    .display>.showcase>.table>.table-1{
+        width: 30%;
+        font-size: 0.69em;
+        margin-left: -15px;
+    }
+    .display>.showcase>.table>.table-2{
+        width: 30%;
+        font-size: 0.69em;
+        margin-left: -15px;
+    }
+}
 @media (max-width: 300px){
     .nav-wrap>.flex>li{
         padding-left: -110px;
