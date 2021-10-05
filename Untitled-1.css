@@ -54,10 +54,17 @@
         font-size: 0.7em;
         margin-left: -25px;
     }
+    .footer>.showcase>.social>a{
+        text-align: center;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    body{
+        width: 100%;
+        box-sizing: border-box;
+    }
     .grid{
         grid-template-columns: 1fr;
     }
@@ -97,14 +104,16 @@
     }
     .display>.showcase>.table>.table-1{
         width: 100%;
-        font-size: 0.7em;
-        margin-left: -25px;
+        font-size: 1em;
     }
     .display>.showcase>.table>.table-2{
         width: 100%;
-        font-size: 0.7em;
-        margin-left: -25px;
+        font-size: 1em;
     }
+    .footer>.showcase>.social>a{
+        text-align: center;
+    }
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
