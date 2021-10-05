@@ -1,0 +1,117 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .showcase{
+        height: auto;
+    }
+    .container-card{
+        margin-top: -50px;
+    }
+    .display{
+        margin-top: 200px;
+      
+    }
+    .table-1{
+        overflow: hidden;
+    }
+    .footer{
+        height: auto;
+    }
+    .container-card{
+        margin-right: 5px;
+        position: relative;
+        top: 60px;
+        
+    }
+    .card{
+        width: 95%;
+    }
+    .head-wrap>h1{
+        font-size: 1.2em;
+    }
+    .display>.showcase>.table{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 95px;
+    }
+    .display>.showcase>.table>h2{
+        text-align: center;
+        margin-left: 10px;
+    }
+    .display>.showcase>.table>.table-1{
+        width: 100%;
+        font-size: 0.7em;
+        margin-left: -25px;
+    }
+    .display>.showcase>.table>.table-2{
+        width: 100%;
+        font-size: 0.7em;
+        margin-left: -25px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .showcase{
+        height: auto;
+    }
+    .container-card{
+        margin-top: -50px;
+    }
+    .display{
+        margin-top: 200px;
+      
+    }
+    .table-1{
+        overflow: hidden;
+    }
+    .footer{
+        height: auto;
+    }
+    .container-card{
+        margin-right: 5px;
+        position: relative;
+        top: 60px;
+        
+    }
+    .card{
+        width: 95%;
+    }
+    .display>.showcase>.table{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 95px;
+    }
+    .display>.showcase>.table>h2{
+        text-align: center;
+        margin-left: 10px;
+    }
+    .display>.showcase>.table>.table-1{
+        width: 100%;
+        font-size: 0.7em;
+        margin-left: -25px;
+    }
+    .display>.showcase>.table>.table-2{
+        width: 100%;
+        font-size: 0.7em;
+        margin-left: -25px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {...}
