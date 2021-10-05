@@ -1,6 +1,7 @@
 @media (max-width: 800px){
     body{
         width: 100%;
+        box-sizing: border-box;
     }
 }
 
@@ -43,12 +44,12 @@
         margin-left: 10px;
     }
     .display>.showcase>.table>.table-1{
-        width: 30%;
+        width: 100%;
         font-size: 0.8em;
         margin-left: -20px;
     }
     .display>.showcase>.table>.table-2{
-        width: 30%;
+        width: 100%;
         font-size: 0.8em;
         margin-left: -20px;
     }
@@ -74,12 +75,12 @@
         margin-left: 10px;
     }
     .display>.showcase>.table>.table-1{
-        width: 30%;
+        width: 100%;
         font-size: 0.7em;
         margin-left: -25px;
     }
     .display>.showcase>.table>.table-2{
-        width: 30%;
+        width: 100%;
         font-size: 0.7em;
         margin-left: -25px;
     }
@@ -94,15 +95,14 @@
         width: 100%;
         margin: 0 auto;
         margin-top: 95px;
-        overflow-y: hidden;
     }
     .display>.showcase>.table>.table-1{
-        width: 30%;
+        width: 100%;
         font-size: 0.69em;
         margin-left: -15px;
     }
     .display>.showcase>.table>.table-2{
-        width: 30%;
+        width: 100%;
         font-size: 0.69em;
         margin-left: -15px;
     }
