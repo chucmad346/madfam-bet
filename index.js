@@ -1,8 +1,19 @@
 //javascript//
-$(myLoad);
-var myLoad = function(){$('reg').click(function(e){
-    e.preventDefault();
-    $('form').load(this.href);
-    console.log("check");
-})
+$(getLogin);
+var request;
+function getLogin(){
+    request = new XMLHttpRequest();
+    request.open("GET", "register.html");
+    request.onreadystatechange = checkdat;
+    request.send(null);
+}
+
+function checkdat(){
+    if(request.readyState == 4){
+        if(request.status == 200){
+            $(".form").html(request.responseText);
+        }else{
+            $(".form").html(request.status + ":" + request.statusText);
+        }
+    }
 }
